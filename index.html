@@ -3,9 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SALAH SAFSAF HOME</title>
+    <meta name="description" content="Welcome to Salah Safsaf website Art works">
+    <title>Salah SAFSAF Home</title>
+    <link rel="icon" type="image/x-icon" href="./Assets/icons/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+
+
+
 </head>
+
 <body>
-    
+
+  <!-- Header Start -->
+<header>
+    <div class="nav-wrapper">
+       
+        <div class="logo-container">
+            <a class="title"href="./index.html">SALAH SAFSAF</a> 
+            <!-- <H1 class="title">SALAH SAFSAF</H1> -->
+        </div>
+         <nav>
+            <input class="hidden" type="checkbox" id="menuToggle">
+            <label class="menu-btn" for="menuToggle">
+                <div class="menu"></div>
+                <div class="menu"></div>
+                <div class="menu"></div>
+            </label>
+            <div class="nav-container">
+                <ul class="nav-tabs">
+                    <a class="nav-tab"href="./index.html">HOME</a>                       
+                    <a class="nav-tab"href="./about.html">ABOUT</a>
+                    <a class="nav-tab"href="./music.html">MUSIC</a>
+                    <a class="nav-tab"href="./shortfilm.html">FILM</a>
+                    <a class="nav-tab"href="./photography.html">PHOTO</a>
+                    <a class="nav-tab"href="./model.html">MODEL</a></li>
+                    <a class="nav-tab"href="./contact.html">CONTACT</a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+ <!-- Header end-->
+
+<!-- Main start -->
+
+<div id="container">
+  <span id="text1"></span>
+  <span id="text2"></span>
+</div>
+
+<svg id="filters">
+  <defs>
+      <filter id="threshold">
+          <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 255 -140" />
+      </filter>
+  </defs>
+</svg>
+
+<!-- Main End -->
+<div id="container">
+    <span id="text1"></span>
+    <span id="text2"></span>
+</div>
+
+<svg id="filters">
+    <defs>
+        <filter id="threshold">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140" />
+        </filter>
+    </defs>
+</svg>
+<!-- Footer  Start-->
+
+<footer>
+  <div class="footer">
+    <div id="button">
+    </div>
+  <div id="container">
+  <div id="cont">
+  <div class="footer_center">
+    <h3 class="links-media"> © 2023 All Rights Reserved</h3>
+    <a class="legal" href="./credits.html">Credits</a>
+    <a class="legal" href="./impressium.html">Impressum</a>
+  
+  </div>
+  </div>
+  </div>
+  </div>
+</footer>
+  <!-- Footer End-->
+<script src="./javascript/text.js"></script>
+
 </body>
 </html>
