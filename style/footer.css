@@ -1,0 +1,169 @@
+/* Préparation footer pour transfert SPA */
+/* reste a faire media query pour footer */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+/* Footer start */
+.footer #button {
+  width: 30px;
+  height: 30px;
+  border: #b6b6dd 12px solid;
+  border-radius: 35px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.footer #button:hover {
+  width: 35px;
+  height: 35px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  position: relative;
+  color: white 12px solid;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 2em;
+  overflow: hidden;
+  margin: 0 auto;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  z-index: 999;
+}
+.footer:hover {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  height: 8em;
+}
+.footer #container {
+  margin-top: 10px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.footer #cont {
+  position: relative;
+  top: -45px;
+  right: 50px;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  color: white;
+}
+.footer_center {
+  display: flex;
+  width: 200%;
+  float: left;
+  text-align: center;
+}
+.footer h3 {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-top:67px;
+ 
+  color: white;
+}
+
+.footer a {
+  display: block;
+  font-size: 10px;
+  font-weight: 100;
+  color: white;
+  /* margin-top: 70px;
+  margin-left: 20px; */
+}
+.footer .legal {
+  font-family: 'Cormorant Garamond', serif;
+  display: block;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin-top: 63px;
+  float: center;
+  text-align: center;
+  color: white;
+}
+.links-media {
+  float: center;
+  text-align: center;
+  margin-top: 70px;
+  
+}
+.legal {
+  padding: 1%;
+  width: auto;
+  float: right;
+  text-align: right;
+  text-decoration: none;
+}
+.legal:hover {
+    
+  color: #b6b6dd; 
+}
+.fa {
+  display: inline-block;
+  padding: 2px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  margin-top: 70px;
+  color: black;
+
+  text-align: center;
+}
+
+.fa:hover {
+   color: #b6b6dd; 
+  
+}
+
+.fa-facebook {
+  color: white;
+}
+.fa-google {
+  color:  white;
+}
+
+.fa-youtube {
+  
+  color: white;
+}
+
+.fa-instagram {
+
+  color:  white;
+}
+
+.fa-vimeo {
+ 
+  color:  white;
+}
+.fa-soundcloud {
+  
+  color:  white;
+}
+
+
+
+/* Footer End */
