@@ -20,7 +20,7 @@ body {
 .dropdown{
 	right: 50px;
 	height: 100%;
-   with : 100%;
+   width : 100%;
   }
   .dropdown-menu{
 	height: 500%;
