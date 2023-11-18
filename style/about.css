@@ -16,7 +16,7 @@ body {
   background-color: #999;
 }
 .title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 1.7rem;
   font-weight: 300;
   letter-spacing: 2px;
@@ -27,11 +27,10 @@ body {
 /* title effect start */
 
 .title:hover {
-  color:rgb(182, 182, 221);
+  color: rgb(182, 182, 221);
 }
 
 /* title effect End */
-
 
 /* Navbar start */
 
@@ -184,7 +183,7 @@ nav a:nth-child(7):after {
 }
 
 nav a:hover {
-  color:rgb(182, 182, 221);
+  color: rgb(182, 182, 221);
 }
 
 nav a:hover:before,
@@ -208,19 +207,19 @@ nav a:nth-child(3):hover ~ #indicator {
   background: linear-gradient(130deg, purple, palevioletred);
 }
 nav a:nth-child(4):hover ~ #indicator {
-  left: ;
+  left: 10%;
   background: linear-gradient(130deg, purple, palevioletred);
 }
 nav a:nth-child(5):hover ~ #indicator {
-  left: ;
+  left: 0%;
   background: linear-gradient(130deg, purple, palevioletred);
 }
 nav a:nth-child(6):hover ~ #indicator {
-  left: ;
+  left: 0%;
   background: linear-gradient(130deg, purple, palevioletred);
 }
 nav a:nth-child(7):hover ~ #indicator {
-  left: ;
+  left: 0%;
   background: linear-gradient(130deg, purple, palevioletred);
 }
 
@@ -328,11 +327,11 @@ h2 {
   text-align: center;
 }
 .footer h3 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   letter-spacing: 1px;
   font-size: 18px;
-  margin-top:67px;
- 
+  margin-top: 67px;
+
   color: white;
 }
 
@@ -345,7 +344,7 @@ h2 {
   margin-left: 20px; */
 }
 .footer .legal {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   display: block;
   font-size: 18px;
   font-weight: 100;
@@ -359,7 +358,6 @@ h2 {
   float: center;
   text-align: center;
   margin-top: 70px;
-  
 }
 .legal {
   padding: 1%;
@@ -369,8 +367,7 @@ h2 {
   text-decoration: none;
 }
 .legal:hover {
-    
-  color: #b6b6dd; 
+  color: #b6b6dd;
 }
 .fa {
   display: inline-block;
@@ -387,37 +384,30 @@ h2 {
 }
 
 .fa:hover {
-   color: #b6b6dd; 
-  
+  color: #b6b6dd;
 }
 
 .fa-facebook {
   color: white;
 }
 .fa-google {
-  color:  white;
+  color: white;
 }
 
 .fa-youtube {
-  
   color: white;
 }
 
 .fa-instagram {
-
-  color:  white;
+  color: white;
 }
 
 .fa-vimeo {
- 
-  color:  white;
+  color: white;
 }
 .fa-soundcloud {
-  
-  color:  white;
+  color: white;
 }
-
-
 
 /* Footer End */
 
@@ -433,111 +423,111 @@ h2 {
     font-weight: bold;
   }
   .nav-tabs {
-    
     font-size: 16px;
   }
-.title {
-    font-size: 1.7rem;
-  }
-@media screen and (max-width: 990px) {
   .title {
     font-size: 1.7rem;
   }
-
-  .footer h3 {
-    font-size: 14px;
-  }
-  .footer .legal {
-    font-size: 14px;
-  }
-
-  .nav-container {
-    position: fixed;
-    display: none;
-    overflow-y: auto;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    width: 158px;
-    height: 100%;
-    background: #cbcdcd;
-  }
-
-  .nav-tabs {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 100px;
-    font-size: 1rem;
-    width: 100%;
-  }
-
-  .nav-tab:not(:last-child) {
-    padding: 15px 7px;
-    margin: 0;
-    border-right: unset;
-  }
-
-  .nav-tab:last-child {
-    padding: 15px 7px;
-  }
-
-  .menu-btn {
-    position: relative;
-    display: block;
-    margin: 0;
-    width: 20px;
-    height: 15px;
-    cursor: pointer;
-    z-index: 2;
-    padding: 10px;
-  }
-
-  .menu-btn .menu {
-    /* couleur bouton menu */
-    display: block;
-    width: 100%;
-    height: 2px;
-    border-radius: 2px;
-    background: white;
-  }
-
-  .menu-btn .menu:nth-child(2) {
-    margin-top: 4px;
-    opacity: 1;
-  }
-
-  .menu-btn .menu:nth-child(3) {
-    margin-top: 4px;
-  }
-
-  #menuToggle:checked + .menu-btn .menu {
-    transition: transform 0.2s ease;
-  }
-
-  #menuToggle:checked + .menu-btn .menu:nth-child(1) {
-    transform: translate3d(0, 6px, 0) rotate(45deg);
-  }
-
-  #menuToggle:checked + .menu-btn .menu:nth-child(2) {
-    transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
-    opacity: 0;
-  }
-
-  #menuToggle:checked + .menu-btn .menu:nth-child(3) {
-    transform: translate3d(0, -6px, 0) rotate(-45deg);
-  }
-
-  #menuToggle:checked ~ .nav-container {
-    z-index: 1;
-    display: flex;
-    animation: menu-slide-left 0.3s ease;
-  }
-  @keyframes menu-slide-left {
-    0% {
-      transform: translateX(200px);
+  @media screen and (max-width: 990px) {
+    .title {
+      font-size: 1.7rem;
     }
-    to {
-      transform: translateX(0);
+
+    .footer h3 {
+      font-size: 14px;
+    }
+    .footer .legal {
+      font-size: 14px;
+    }
+
+    .nav-container {
+      position: fixed;
+      display: none;
+      overflow-y: auto;
+      z-index: -1;
+      top: 0;
+      right: 0;
+      width: 158px;
+      height: 100%;
+      background: #cbcdcd;
+    }
+
+    .nav-tabs {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 100px;
+      font-size: 1rem;
+      width: 100%;
+    }
+
+    .nav-tab:not(:last-child) {
+      padding: 15px 7px;
+      margin: 0;
+      border-right: unset;
+    }
+
+    .nav-tab:last-child {
+      padding: 15px 7px;
+    }
+
+    .menu-btn {
+      position: relative;
+      display: block;
+      margin: 0;
+      width: 20px;
+      height: 15px;
+      cursor: pointer;
+      z-index: 2;
+      padding: 10px;
+    }
+
+    .menu-btn .menu {
+      /* couleur bouton menu */
+      display: block;
+      width: 100%;
+      height: 2px;
+      border-radius: 2px;
+      background: white;
+    }
+
+    .menu-btn .menu:nth-child(2) {
+      margin-top: 4px;
+      opacity: 1;
+    }
+
+    .menu-btn .menu:nth-child(3) {
+      margin-top: 4px;
+    }
+
+    #menuToggle:checked + .menu-btn .menu {
+      transition: transform 0.2s ease;
+    }
+
+    #menuToggle:checked + .menu-btn .menu:nth-child(1) {
+      transform: translate3d(0, 6px, 0) rotate(45deg);
+    }
+
+    #menuToggle:checked + .menu-btn .menu:nth-child(2) {
+      transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
+      opacity: 0;
+    }
+
+    #menuToggle:checked + .menu-btn .menu:nth-child(3) {
+      transform: translate3d(0, -6px, 0) rotate(-45deg);
+    }
+
+    #menuToggle:checked ~ .nav-container {
+      z-index: 1;
+      display: flex;
+      animation: menu-slide-left 0.3s ease;
+    }
+    @keyframes menu-slide-left {
+      0% {
+        transform: translateX(200px);
+      }
+      to {
+        transform: translateX(0);
+      }
     }
   }
 }
